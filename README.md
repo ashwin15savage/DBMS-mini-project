@@ -5,9 +5,13 @@ Create a SQL database and run 15 queries
 This is our fourth semester mini project in DBMS subject.
 
 HOW TO EXECUTE THE DATABASE
+
 Step 1: Download the orders.sql file
-step 2: Open xampp or any other RDBMS 
+
+step 2: Open xampp or any other RDBMS
+
 step 3: Import the queries.sql file in .sql format
+
 step 4: Execute each queries from queries.sql and check the output in output.docs
 
 
