@@ -15,13 +15,13 @@ step 3: Import the queries.sql file in .sql format
 step 4: Execute each queries from queries.sql and check the output in output.docs
 
 
-#SPECS:
+# SPECS:
 
 1. File named orders.sql should contain the complete script with which you constructed your database (i.e., all CREATE and all INSERT statements).
 2.  File named queries.sql should contain the SQL statements for each of the 15 problems 
 3.  File named output.docs should contain the output of the execution of the script queries.sql.
 
-#Run these queries
+# Run these queries
 
 1.Count of Website for each Account Owner
 
