@@ -68,9 +68,9 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 
 
 # Team
-1. Ashwin -@ashwin15savage
-2. Hari  - @HariharasudhanP
-3. Maran - @Maran-sugumaran
+1. Ashwin 
+2. Hari  
+3. Maran 
 4. Praveen
 5. Sanjay
 
