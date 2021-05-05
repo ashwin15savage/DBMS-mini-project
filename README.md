@@ -1,18 +1,23 @@
 # DBMS-mini-project
-Mini project
-Create a SQL database and run 15 queries
+# Installation
 
-This is our fourth semester mini project in DBMS subject.
+Step 1: Install XAMPP or WAMPP
 
-HOW TO EXECUTE THE DATABASE
+step 2: Open XAMPP/WAMPP control panel and start apache and my sql
 
-Step 1: Download the orders.sql file
+step 3: Download the project from github
 
-step 2: Open xampp or any other RDBMS
+step 4: Open the Link http://localhost/phpmyadmin (or) http://127.0.0.1/phpmyadmin in any Web Browser on your Computer
 
-step 3: Import the queries.sql file in .sql format
+step 5: Click  the 'New' button in the left side to create a new database and enter a name(Order_system)
 
-step 4: Execute each queries from queries.sql and check the output in output.docs
+step 6: Click on the create button and the database is successfully created
+
+step 7: Click on the import option at the top and browse for orders(1).sql 
+
+8. Click go and the database is successfully imported
+
+9. Go to sql.queries file and execute the queries in the SQL section in 
 
 
 # SPECS:
