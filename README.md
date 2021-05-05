@@ -1,23 +1,23 @@
 # DBMS-mini-project
 # Installation
 
-Step 1: Install XAMPP or WAMPP
+ 1: Install XAMPP or WAMPP
 
-step 2: Open XAMPP/WAMPP control panel and start apache and my sql
+ 2: Open XAMPP/WAMPP control panel and start apache and my sql
 
-step 3: Download the project from github
+ 3: Download the project from github
 
-step 4: Open the Link http://localhost/phpmyadmin (or) http://127.0.0.1/phpmyadmin in any Web Browser on your Computer
+ 4: Open the Link http://localhost/phpmyadmin (or) http://127.0.0.1/phpmyadmin in any Web Browser on your Computer
 
-step 5: Click  the 'New' button in the left side to create a new database and enter a name(Order_system)
+ 5: Click  the 'New' button in the left side to create a new database and enter a name(Order_system)
 
-step 6: Click on the create button and the database is successfully created
+ 6: Click on the create button and the database is successfully created
 
-step 7: Click on the import option at the top and browse for orders(1).sql 
+ 7: Click on the import option at the top and browse for orders(1).sql 
 
-8. Click go and the database is successfully imported
+ 8. Click go and the database is successfully imported
 
-9. Go to sql.queries file and execute the queries in the SQL section in 
+ 9. Go to queries.sql file and execute the queries in the SQL section in 
 
 
 # SPECS:
@@ -42,7 +42,7 @@ step 7: Click on the import option at the top and browse for orders(1).sql
 
 7.write a query to display the lead source which has the highest number of conversions.
 
-8..write a query to display opportunity name and expected revenue having 100% probability of conversion
+8. write a query to display opportunity name and expected revenue having 100% probability of conversion
 
 9.Write a query to display opportunity name and amount of those people whose amount is greater than the average amount of revenue
 
@@ -51,7 +51,6 @@ step 7: Click on the import option at the top and browse for orders(1).sql
 11.  Write a query to display order owner and order name of that order whose price id=30000000  and has 7 quantities
 
 12.Write a query to display order Id and name of the order who ordered Differential Price Book - Business2
-
 
 13. Write a query to display Id and name of the product which have been ordered more than 10
 
