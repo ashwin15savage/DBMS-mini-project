@@ -1,25 +1,29 @@
 # DBMS-mini-project
 # Installation
 
- 1: Install XAMPP or WAMPP
+ 1 Install XAMPP or WAMPP
 
- 2: Open XAMPP/WAMPP control panel and start apache and my sql
+ 2 Open XAMPP/WAMPP control panel and start apache and my sql
 
- 3: Download the project from github
+ 3 Download the project from github
 
- 4: Open the Link http://localhost/phpmyadmin (or) http://127.0.0.1/phpmyadmin in any Web Browser on your Computer
+ 4 Open the Link http://localhost/phpmyadmin (or) http://127.0.0.1/phpmyadmin in any Web Browser on your Computer
 
- 5: Click  the 'New' button in the left side to create a new database and enter a name(Order_system)
+ 5 Click  the 'New' button in the left side to create a new database and enter a name(Order_system)
 
- 6: Click on the create button and the database is successfully created
+ 6 Click on the create button and the database is successfully created
 
- 7: Click on the import option at the top and browse for orders(1).sql 
-
+ 7 Click on the import option at the top and browse for orders(1).sql 
+ 
  8. Click go and the database is successfully imported
 
  9. Go to queries.sql file and execute the queries in the SQL section in 
 
 
+
+ 
+
+ 
 # SPECS:
 
 1. File named orders.sql should contain the complete script with which you constructed your database (i.e., all CREATE and all INSERT statements).
