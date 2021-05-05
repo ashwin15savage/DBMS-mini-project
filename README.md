@@ -63,6 +63,14 @@
 15.  write a query to display the product owner,name,manufacturer and cost which is greater than average of the cost of all products in descending order
 
 
+# Team
+1. Ashwin -@ashwin15savage
+2. Hari  - @HariharasudhanP
+3. Maran - @Maran-sugumaran
+4. Praveen
+5. Sanjay
+
+
 
 
 
