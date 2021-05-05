@@ -17,8 +17,12 @@
  
  8. Click go and the database is successfully imported
 
- 9. Go to queries.sql file and execute the queries in the SQL section in 
+ 9. Go to queries.sql file and execute the queries in the SQL section 
+ 
+ 
+# About the Project
 
+In this project we have got the dataset of Salesforce CRM published on Zoho analytics. This dataset contains 13 tables. It mainly focuses on orders of products by its customers. It also contains data regarding leads and opportunity. We as a team have performed various queries and got some insightful data
 
 
  
