@@ -67,6 +67,16 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 15.  write a query to display the product owner,name,manufacturer and cost which is greater than average of the cost of all products in descending order
 
 
+16.  Write a query to display order Id and name of the order who ordered Flat price book- Business 1
+
+
+17. Write a query to display details of 5 lead id, name and their company who invloved in a task and their opportunity amount is more than 20000  
+
+
+18.  Write a query to display details of order Id,name and amount of those whose order date is active and ordered before they bought a book.
+
+
+
 # Team
 1. Ashwin 
 2. Hari  
