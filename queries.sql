@@ -108,7 +108,19 @@ SELECT o.orderid,o.ordername,o.order_amount from orders o join
 ( select p.createddate from price_books p ,price_book_entry
  where active='yes' and p.PriceBookID=price_book_entry.PriceBookID group by 1 )
  sub on  o.Created_Date>sub.CreatedDate order by o.Order_Amount limit 5;
+
+
+ -----
  
+ 
+SELECT b.Active,b.cost,b.ProductName,b.productowner from 
+price_book_entry a,products b
+where a.productid=b.productid 
+and cost>500
+Order BY Cost ASC;
+
+
+-----
  
  
 
