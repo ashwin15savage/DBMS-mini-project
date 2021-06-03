@@ -31,7 +31,7 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 # SPECS:
 
 1. File named orders.sql should contain the complete script with which you constructed your database (i.e., all CREATE and all INSERT statements).
-2.  File named queries.sql should contain the SQL statements for each of the 15 problems 
+2.  File named queries.sql should contain the SQL statements for each of the 26 problems 
 3.  File named output.docs should contain the output of the execution of the script queries.sql.
 4.  File named sales.sql contains all plsql queries
 
