@@ -24,9 +24,9 @@ BEGIN
     FROM book
     WHERE bookid LIKE auxItemID;
   
-    DBMS_OUTPUT.PUT_LINE('ordename ' || OrderID || ' AccId');
+    DBMS_OUTPUT.PUT_LINE('ordename ' || OrderID || AccId);
     DBMS_OUTPUT.PUT_LINE('------------------------------------------');
-    DBMS_OUTPUT.PUT_LINE('OrderId ' || 'AccId);
+    DBMS_OUTPUT.PUT_LINE('OrderId ' || AccId);
     DBMS_OUTPUT.PUT_LINE('city ' || address);
     DBMS_OUTPUT.PUT_LINE('city ' || aux);
     DBMS_OUTPUT.PUT_LINE('Amount: ' || Cost);
@@ -38,7 +38,7 @@ BEGIN
     FROM order_items
     WHERE orderProductId LIKE pricebookentryId;
   
-    DBMS_OUTPUT.PUT_LINE('VIDEO ' || ItemID || ' INFO');
+    DBMS_OUTPUT.PUT_LINE('VIDEO ' || ItemID ||  INFO);
     DBMS_OUTPUT.PUT_LINE('------------------------------------------');
     DBMS_OUTPUT.PUT_LINE('TITLE: ' || Title);
     DBMS_OUTPUT.PUT_LINE('YEAR: ' || Year);
@@ -56,7 +56,7 @@ DECLARE
   OrderProductID VARCHAR2(10);
 BEGIN
   OrderProductID := &Item_ID;
-  viewItem_library(ItemID);
+  viewItem(ItemID);
 END;
 
 
@@ -78,14 +78,14 @@ BEGIN
   FROM rent
   WHERE rent.cardid LIKE auxcard;
   
-  DBMS_OUTPUT.PUT_LINE('The user card is ' || auxCard);  
+  DBMS_OUTPUT.PUT_LINE('The product is ' || bookname);  
   IF (rented > 0) THEN
-    SELECT rent.itemid INTO auxItem
-    FROM rent,card
-    WHERE card.cardid = rent.cardid
-    AND card.cardid LIKE auxCard;    
+    SELECT price_books.itemid 
+    FROM price_books,price_books_entry
+    WHERE price_books.id = price_books_entry.id
+    AND price_books_entry.id LIKE auxCard;    
     
-    DBMS_OUTPUT.PUT_LINE('The user has ' || auxItem || ' rented');
+    DBMS_OUTPUT.PUT_LINE('The user has ' || auxItem ||  rented);
   ELSE    
     DBMS_OUTPUT.PUT_LINE('This user has no orders'); 
   END IF;
@@ -125,7 +125,7 @@ BEGIN
   FROM price_books
   WHERE price_books.pricebookid LIKE orderId;
   
-  DBMS_OUTPUT.PUT_LINE('The user Item is ' || Card);  
+  DBMS_OUTPUT.PUT_LINE('The user Item is ' || productId);  
   IF (item > 0) THEN
     SELECT price_books.pricebookid  INTO Item
     FROM price_books,price_books_entry
