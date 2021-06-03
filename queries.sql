@@ -127,9 +127,9 @@ Order BY Cost ASC;
 SELECT DISTINCT b.Fullname,b.leadowner,b.leadsource from 
 contacts a,leads b
 where a.leadsource=b.leadsource In 
-                    (SELECT Id FROM leads 
-                     Where LeadSource="Cold Call"
-                    and Industry="IT Services")
+(SELECT Id FROM leads 
+Where LeadSource="Cold Call"
+ and Industry="IT Services")
                     
                     
 -----
