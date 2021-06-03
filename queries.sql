@@ -144,6 +144,16 @@ WHERE Accountowner LIKE "%ew";
 ----
 
 
+SELECT a.OrderOwner,b.Quantity,b.Nettotal -(Nettotal /15/100) as TotalPrice from 
+orders a ,order_items b
+WHERE a.OrderID=b.OrderID AND
+Quantity>=10
+ORDER by Quantity ASC;
+
+
+-----
+
+
 
 
 
