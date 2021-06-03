@@ -76,14 +76,21 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 
 18.  Write a query to display details of order Id,name and amount of those whose order date is active and ordered before they bought a book.
 
-19.  Write a query to didplay details of account name,account owner ,account type,subject,status using JOIN
+19.  Write a query to display details of Active,Cost,Productname,Productowner whose cost is greater than 500 and sort them in ascending order.  
 
-20.  Write a query to didplay details of account name,account owner ,account type,subject,status using RIGHT JOIN
+20.  Write a query to display details of distinct Fullname,Leadsourcce,Leadowner where the leadsource is cold call and they are in the IT industry.
 
+21.  Write a query to display details of Accountowner,Accountname,Taskinvolved in whose name ends with "ew" using right joins.
 
-21.  Write a query to didplay details of account name,account owner ,account type,subject,status using INNER JOIN
+22.  Write a query to display details of Orderowner,Quantity,nettotal and decrement 15 percent of nettotal for those who ordered 10 or more items and label it as totalprice
 
-22.  Write a query to didplay details of account name,account owner ,account type,subject,status using LEFT
+23.  Write a query to didplay details of account name,account owner ,account type,subject,status using JOIN
+
+24.  Write a query to didplay details of account name,account owner ,account type,subject,status using RIGHT JOIN
+
+25.  Write a query to didplay details of account name,account owner ,account type,subject,status using INNER JOIN
+
+26.  Write a query to didplay details of account name,account owner ,account type,subject,status using LEFT
 
 
 
