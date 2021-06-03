@@ -75,7 +75,11 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 
 18.  Write a query to display details of order Id,name and amount of those whose order date is active and ordered before they bought a book.
 
-19.  Write a query to didplay details of account name,account owner ,account type,subject,status using JOIN 
+19.  Write a query to didplay details of account name,account owner ,account type,subject,status using JOIN
+
+20.  Write a query to didplay details of account name,account owner ,account type,subject,status using RIGHT JOIN
+
+
 
 
 
