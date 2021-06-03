@@ -80,6 +80,11 @@ In this project we have got the dataset of Salesforce CRM published on Zoho anal
 20.  Write a query to didplay details of account name,account owner ,account type,subject,status using RIGHT JOIN
 
 
+21.  Write a query to didplay details of account name,account owner ,account type,subject,status using INNER JOIN
+
+22.  Write a query to didplay details of account name,account owner ,account type,subject,status using LEFT
+
+
 
 
 
