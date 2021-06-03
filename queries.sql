@@ -167,20 +167,7 @@ SELECT accounts.Accountname, accounts.Accountowner, accounts.`Account Type`,acco
 FROM accounts
 RIGHT JOIN activities ON accounts.Accountowner=activities.`Activity Owner`;
 
---------
 
-
-SELECT accounts.Accountname, accounts.Accountowner, accounts.`Account Type`,accounts.Industry,activities.Subject,activities.`Due Date`,activities.Status
-FROM accounts
-LEFT JOIN activities ON accounts.Accountowner=activities.`Activity Owner`;
-
---------
-
-SELECT accounts.Accountname, accounts.Accountowner, accounts.`Account Type`,accounts.Industry,activities.Subject,activities.`Due Date`,activities.Status
-FROM accounts
- JOIN activities ON accounts.Accountowner=activities.`Activity Owner`;
- 
--
 
 
 
