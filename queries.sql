@@ -34,6 +34,7 @@ SELECT OpportunityName,ExpectedRevenue from opportunities o
 
 ----
 
+
 select OpportunityName,Amount from opportunities 
 where amount>
 (select avg(Amount) FROM opportunities)
@@ -121,6 +122,9 @@ Order BY Cost ASC;
 
 
 -----
+
+
+
  
  
 
