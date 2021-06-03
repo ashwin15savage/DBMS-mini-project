@@ -180,7 +180,7 @@ SELECT accounts.Accountname, accounts.Accountowner, accounts.`Account Type`,acco
 FROM accounts
  JOIN activities ON accounts.Accountowner=activities.`Activity Owner`;
  
----------
+-
 
 
 
