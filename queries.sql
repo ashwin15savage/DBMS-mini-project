@@ -135,6 +135,16 @@ where a.leadsource=b.leadsource In
 -----
 
 
+SELECT a.Accountname,a.Accountowner ,a.Tasksinvolved from 
+accounts a right join cases b 
+on a.Id=b.Id
+WHERE Accountowner LIKE "%ew";
+
+
+----
+
+
+
 
 
 
